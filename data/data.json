@@ -1,0 +1,14 @@
+{
+  "fname": {
+    "name": "asdfasdf123123",
+    "protocol": "telnet",
+    "ip": "12312321322221",
+    "from_internet": true,
+    "port": 22,
+    "remote_port": 3333,
+    "mac_addr": "132321",
+    "hwagent": true,
+    "username": "admin",
+    "password": "admin"
+  }
+}
