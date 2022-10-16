@@ -1,6 +1,6 @@
 {
-	"name": "autoupdater-demo",
-	"version": "0.1.5",
+	"name": "iot-analyzer-app",
+	"version": "0.1.1",
 	"private": true,
 	"main": "public/electron.js",
 	"homepage": "./",
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/chinhpro2k/electron-base-auto-update"
+		"url": "https://github.com/chinhpro2k/iot-analyzer-app"
 	},
 	"dependencies": {
 		"@ant-design/charts": "^1.4.2",
@@ -36,7 +36,7 @@
 		"start": "concurrently \"cross-env BROWSER=none react-scripts start\" \"wait-on http://localhost:3000 && electron .\"",
 		"build:prod": "react-scripts build && electron-builder --win",
 		"build:prod:linux": "react-scripts build && electron-builder --linux",
-		"build:publish": "set GH_TOKEN=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 && react-scripts build && electron-builder --win --publish always"
+		"build:publish": "set GH_TOKEN=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 && react-scripts build && electron-builder --win --publish always"
 	},
 	"build": {
 		"appId": "com.autoupdater.demo",
